@@ -5,14 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    swiperList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var reqTask = wx.request({
+      url: '',
+      data: {},
+      header: {'content-type':'application/json'},
+      method: 'GET',
+      dataType: 'json',
+      responseType: 'text',
+      success: (result)=>{
+        
+      },
+      fail: ()=>{},
+      complete: ()=>{}
+    });
   },
 
   /**
