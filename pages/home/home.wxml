@@ -1,2 +1,7 @@
 <!--pages/home.wxml-->
-<text>pages/home.wxml</text>
+<text>pages/home.wxml
+    <text class="iconfont icon-jijian_jihuo" >
+        
+    </text>
+      
+</text>
